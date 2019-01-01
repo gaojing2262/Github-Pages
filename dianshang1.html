@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="demo1.css" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="dianshang1-animate.js"></script>
+<title>帮5买主页</title>
+</head>
+<script>
+window.onload = function(){
+var wrapper = document.getElementsByClassName('wrapper')[0];
+window.onscroll = function(){
+	var st = document.documentElement.scrollTop || document.body.onscroll;
+	if(st>180){
+		wrapper.style.position = 'fixed'
+	}else{
+		wrapper.style.position = 'static'}
+}
+}
+</script>
+
+<body>
+<div class="wrapper">
+<!-- 导航条+ad  -->
+    <div class="top-nav-wrap">
+    <div class="top-nav">
+<ul class="top-nav-l">
+<li>帮5买，享帮帮</li>
+</ul>
+<ul class="top-nav-r">
+<li class="top-nav-menu>
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/qq.png" /></a></span> </li>
+           <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/weixin.png" /></a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/weibo.png" /></a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;登录</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;注册</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/信封.png"/>消息</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/dingdan.jpg"/><span>我的订单</span></a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;我的收藏</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;帮钻兑换</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/tp-my-phone.png"/>手机版</span></a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;帮5淘</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;客户服务</a></span></li>
+        <li class="top-nav-menu">
+        <a href="#"><span>&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/gouwuche.jpg"/><span>购物车</s &nbsp;0></a></span></li>
+        </li>
+        </ul>
+</div>
+
+<div class="ad-wrap">
+<div class="ad">
+</div>
+</div>
+
+  <!--  搜索区域  -->
+<div class="search-wrap">
+  <div class="search-con">
+   <div class="logo-box"></div>
+    <div class="search-box">
+    <div class="search-t">
+      <div class="search-tab">
+      <ul>
+      <li></li>
+      <li></li>
+      </ul>
+      </div>
+      <div class="search-panel">
+      <form action="">
+         <div class="btn">
+           <button class="submit">搜全网</button>
+      </div>
+      <div class="search-inp-box">
+        <div class="search-inp">
+        <input type="text" placeholder="输入商品网址或关键词，直通全网，快速帮5购!">
+        </div>
+      </div>
+      </form>
+      </div>
+    </div>
+    <div class="search-bl">
+    <a href="#" class="active">洗发护发 | </a>
+    <a href="#" class="active">日本纸尿裤 | </a>
+    <a href="#">身体乳 | </a>
+    <a href="#">内衣文胸 | </a>
+    <a href="#" class="huise">iphone6s | </a>
+    <a href="#" class="huise">iPad Air2 | </a>
+    <a href="#">牛仔裤 | </a>
+    <a href="#">奶粉 | </a>
+    <a href="#">防晒霜 | </a>
+    <a href="#">伞 </a>
+    </div>
+    </div> 
+   <div class="code-box">
+   <a href="#" class="code"></a>
+   </div>
+    
+  </div>
+</div>
+
+<!-- 导航条 -->
+<div class="screen-nav">
+<div class="screen-nav-con">
+   <h2>全部商品分类</h2>
+   <ul>
+   <li>
+   <a href="#">帮5赚</a>
+   </li>
+   <li>
+   <a href="#">帮韩品</a>
+   </li>
+   <li>
+   <a href="#">超划算</a>
+   </li>
+   <li>
+   <a href="#">品牌货栈</a>
+   </li>
+   <li>
+   <a href="#">韩国馆</a>
+   </li>
+   <li>
+   <a href="#">帮社区</a>
+   </li>
+   <li>
+   <a href="#">1元兑奖</a>
+   <span></span>
+   </li>
+   </ul>
+</div>
+</div>
+
+<!--主体展示部分 -->
+<div class="screen-box">
+   <div class="main">
+   <div class="main-inner">
+      <div class="inner-left">
+      <div class="left-right">
+      <ul>
+      <li>
+      <a href="#">手机</a>
+      <a href="#">数码</a>
+      <a href="#">影音</a>
+      <a href="#">配件</a>
+      </li>
+      <li>
+      <a href="#">电脑</a>
+      <a href="#">网络</a>
+      <a href="#">办公</a>
+      <a href="#">打印</a>
+      </li>
+      <li>
+      <a href="#">家电</a>
+      <a href="#">厨卫</a>
+      <a href="#">生活</a>
+      <a href="#">个户</a>
+      </li>
+      <li>
+      <a href="#">园艺</a>
+      <a href="#">家具</a>
+      <a href="#">家访</a>
+      <a href="#">家饰</a>
+      </li>
+      <li>
+      <a href="#">彩妆</a>
+      <a href="#">面部</a>
+      <a href="#">身体</a>
+      <a href="#">香水</a>
+      </li>
+      <li>
+      <a href="#">男装</a>
+      <a href="#">女装</a>
+      <a href="#">内衣</a>
+      <a href="#">其他</a>
+      </li>
+      <li>
+      <a href="#">女包</a>
+      <a href="#">男包</a>
+      <a href="#">女鞋</a>
+      <a href="#">男鞋</a>
+      </li>
+      <li>
+      <a href="#">运动</a>
+      <a href="#">户外</a>
+      <a href="#">装备</a>
+      <a href="#">服饰</a>
+      </li>
+      <li>
+      <a href="#">儿童</a>
+      <a href="#">婴儿</a>
+      <a href="#">食品</a>
+      <a href="#">玩具</a>
+      </li>
+      <li>
+      <a href="#">乐器</a>
+      <a href="#">家宠</a>
+      <a href="#">收藏</a>
+      <a href="#">鲜花</a>
+      </li>
+      <li>
+      <a href="#">保健</a>
+      <a href="#">理疗</a>
+      <a href="#">药品</a>
+      <a href="#">眼镜</a>
+      </li>
+      <li>
+      <a href="#">果蔬</a>
+      <a href="#">礼品</a>
+      <a href="#">粮油</a>
+      <a href="#">特产</a>
+      </li>
+      <li>
+      <a href="#">文艺</a>
+      <a href="#">生活</a>
+      <a href="#">科技</a>
+      <a href="#">教育</a>
+      </li>
+      </ul>
+      </div>
+      <div class="left-dangqian">
+      <ul>
+      <li>
+      <br><br>当前搜索电商<br><br><br>全网
+      </li>
+      </ul>
+      </div>
+      <div class="left-bottom">
+      <ul>
+      <li><br></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="任务所需小图/img/dd_03.jpg">&nbsp;</span>什么是帮5购&nbsp;&nbsp;<br></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;<span><img src="任务所需小图/img/dd_06.jpg">&nbsp;</span>帮5购提供什么服务<br></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/dd_08.jpg">&nbsp;如何开通帮5购服务<br></li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="inner-content">
+      <div class="content-pic" id="content-pic">
+      <img src="">
+      </div>
+      
+      <div class="inner-mall">
+      <a href="#">
+      <img src="" alt="">
+      </a>
+      </div>
+      <div class="content-bottom">
+      <span>
+      <ul>
+      <li><img src="任务所需小图/img/1.jpg"></li>
+      <li><img src="任务所需小图/img/2.jpg"></li>
+      <li><img src="任务所需小图/img/3.png"></li>
+      <a href="xiangqing.html"><li><img src="任务所需小图/img/qqq.png"></li></a>
+      </ul>
+      </span>
+      </div>
+      </div>
+   </div>
+   <div class="main-bottom">
+   <div class="bottom-top">
+   <div class="top-left"></div>
+   <div class="top-middle">
+   <ul>
+   <h4>购物指南</h4>
+   <li>如何下单</li>
+   <li>帮5购流程</li>
+   <li>订单查询</li>
+   <li>物流配送</li>
+   </ul>
+   <ul>
+   <h4>支付相关</h4>
+   <li>支付方式</li>
+   <li>安全设置</li>
+   <li>账户信息</li>
+   </ul>
+   <ul>
+   <h4>售后服务</h4>
+   <li>取消订单</li>
+   <li>申请售后</li>
+   <li>退货流程</li>
+   <li>退货相关</li>
+   </ul>
+   <ul>
+   <h4>VIP服务</h4>
+   <li>VIP优惠</li>
+   <li>如何成为VIP</li>
+   <li>超级帮钻</li>
+   </ul>
+   <ul>
+   <h4>帮韩品</h4>
+   <li>韩国正品</li>
+   <li>闪电发货</li>
+   <li>帮韩品售后</li>
+   </ul>
+    <ul>
+   <h4>更多</h4>
+   <li>手机APP</li>
+   <li>帮5采APP</li>
+   <li>帮5淘插件</li>
+   <li>其他</li>
+   </ul>
+   <div class="middle-right"></div>
+   </div>
+   </div>
+   <div class="bottom-middle">
+   <ul>
+   <li>
+   <span>关于帮5买&nbsp;&nbsp;|&nbsp;&nbsp;联系我们&nbsp;&nbsp;|&nbsp;&nbsp;合作商家&nbsp;&nbsp;|友情链接&nbsp;&nbsp;|&nbsp;&nbsp;加入我们&nbsp;&nbsp;|&nbsp;&nbsp;移动应用&nbsp;&nbsp;|热门&nbsp;&nbsp;|&nbsp;&nbsp;广告联盟&nbsp;&nbsp;|&nbsp;&nbsp;使用条款</span></li>
+   <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright&nbsp;©&nbsp;2011-2015&nbsp;B5M.COM.ALL&nbsp;rights reserved. Powered by B5Msoft Co.Ltd.</span></li></ul>
+   <div class="middle-xiabian">
+   <ul>
+   <li><span>增值电信业务经营许可证：沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书(沪)-非经营性-2013-0034沪卫(中医)网审【2015】10032号 沪ICP备11034776号-3|食品流通许可证：</span></li>
+   <li><span></span></li>
+   </ul>
+ 
+   <div class="xiabian-x">
+   <ul>
+   <li>
+   <span>SP3101151410301755</span>
+   </li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   <div class="bottom-b">
+   <span>
+   <ul>
+   <li><img src="任务所需小图/img/bo1.gif"></li>
+   <li><img src="任务所需小图/img/bo2.png"></li>
+   <li><img src="任务所需小图/img/bo3.gif"></li>
+   <li><img src="任务所需小图/img/bo4.png"></li>
+   <li><img src="任务所需小图/img/bo5.png"></li>
+   <li><img src="任务所需小图/img/bo6.png"></li>
+   <li><img src="任务所需小图/img/bo7.png"></li>
+   </ul>
+   </span>
+   </div>
+   </div>
+   </div>
+     <div class="col-right">
+     <ul>
+     <br><li>&nbsp;&nbsp;<img src="任务所需小图/img/ico-notice.png">&nbsp;帮帮快讯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="任务所需小图/img/jiantou.jpg"></li><br><hr/>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整1</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整2</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整3</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整4</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整5</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整6</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整7</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整8</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整9</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整10</li>
+     <li>&nbsp;&nbsp;[公告]&nbsp;帮购及VIP服务调整11</li><br><hr/>
+     <li>&nbsp;&nbsp;<img src="任务所需小图/img/phone.png">&nbsp;&nbsp;话费充值&nbsp;&nbsp;(可使用超级黄钻)</li>
+     </ul>
+     <div class="right-input">
+     &nbsp;&nbsp;&nbsp;<input type="text" placeholder="请输入手机号"><br>
+     <br>
+     <ul>
+     <li>
+     &nbsp;&nbsp;&nbsp;
+     <select>
+     <option value="1">30</option>
+     <option value="2">50</option>
+     <option value="3">70</option>
+     <option value="4">100</option>
+     </select>
+     ￥30</li>
+     </ul>
+     <br>
+     </div>
+     <div class="right-btn">
+     <button class="right-btn">充值</button>
+     </div>
+     </div>
+     
+</div>
+</div>
+ <div class="col-righter">
+ 
+ </div>
+<div class="box" id="box">
+		<div class="slider" id="slider">
+			<div class="slide"><img src="=任务所需小图/img/bann6.png" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann1.jpeg" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann2.jpeg" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann3.jpeg" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann4.jpeg" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann5.jpeg" alt=""></div>
+			<div class="slide"><img src="任务所需小图/img/bann6.png"  alt=""></div>
+            <div class="slide"><img src="任务所需小图/img/bann1.jpeg" alt=""></div>
+		</div>
+		<span id="left"><</span>
+		<span id="right">></span>
+		<ul class="nav" id="nav">
+			<li class="active">&nbsp;1</li>
+			<li>&nbsp;2</li>
+			<li>&nbsp;3</li>
+			<li>&nbsp;4</li>
+			<li>&nbsp;5</li>
+            <li>&nbsp;6</li>
+		</ul>
+	</div>
+	<script>
+		var box = document.getElementById('box');
+		var oNavlist = document.getElementById('nav').children;
+		var slider = document.getElementById('slider');
+		var left = document.getElementById('left');
+		var right = document.getElementById('right');
+		var index = 1;
+		var timer;
+		var isMoving = false;
+		box.onmouseover = function(){
+			animate(left,{opacity:50})
+			animate(right,{opacity:50})
+			clearInterval(timer)
+		}
+		box.onmouseout = function(){
+			animate(left,{opacity:0})
+			animate(right,{opacity:0})
+			timer = setInterval(next, 3000);
+		}
+		right.onclick = next;
+		left.onclick = prev;
+		for( var i=0; i<oNavlist.length; i++ ){
+			(function(i){
+				oNavlist[i].onclick = function(){
+					index = i+1;
+					navmove();
+					animate(slider,{left:-800*index});
+				}
+			})(i);
+		}
+		function next(){
+			if(isMoving){
+				return;
+			}
+			isMoving = true;
+			index++;
+			navmove();
+			animate(slider,{left:-800*index},function(){
+				if(index==7){
+					slider.style.left = '-800px';
+					index = 1;
+				}
+				isMoving = false;
+			});
+		}
+		function prev(){
+			if(isMoving){
+				return;
+			}
+			isMoving = true;
+			index--;
+			navmove();
+			animate(slider,{left:-800*index},function(){
+				if(index==0){
+					slider.style.left = '-4800px';
+					index = 6;
+				}
+				isMoving = false;
+			});
+		}
+		function navmove(){
+			for( var i=0; i<oNavlist.length; i++ ){
+				oNavlist[i].className = "";
+			}
+			if(index >6 ){
+				oNavlist[0].className = "active";
+			}else if(index<=0){
+				oNavlist[4].className = "active";
+			}else {
+				oNavlist[index-1].className = "active";
+			}
+		}
+		timer = setInterval(next, 3000);
+	</script>
+
+</body>
+</html>
